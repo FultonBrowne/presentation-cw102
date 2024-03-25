@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+import { Kanit } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const kanit = Kanit({ subsets: ["latin"], weight: "800" });
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-row items-center gap-5 p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-row items-center gap-5 p-24 ${kanit.className}`}
     >
       <div className="flex w-1/2 flex-col p-8">
         <div className="pb-12 text-8xl">
